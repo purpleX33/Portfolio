@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='{% static "styles/main.css" %}' type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Pratik Karmacharya || Portfolio</title>
+</head>
+
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img src="{%static 'images/profile-pic.jpg' %}" alt="profile-pic here" id="profile-pic">
+                    <hr>
+                    <h3>Hi I'm Pratik!</h3>
+                    <p> Aspiring to be a good programmer. Data Science and AI enthusiast. </p>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h4>Description</h4>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo obcaecati, illum labore sit
+                        adipisci qui beatae in, dicta ratione, ipsa voluptatibus sequi ab itaque optio iste aperiam
+                        quisquam? Minus voluptates, quae porro necessitatibus soluta vel.
+                    </p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ut labore perferendis.
+                        Repudiandae, asperiores odit.</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, suscipit.</p>
+                    <ul class="social-links">
+                        <li class="social"> <a href="https://www.instagram.com/pr4tik33/"><img
+                                    src="{%static 'images/instagram.png' %}" alt="instagram"></a></li>
+                        <li class="social"> <a href="https://linkedin.com/in/pratik-karmacharya-96b13b227/"><img
+                                    src="{%static 'images/linkedin.png' %}" alt="linkedin"></a></li>
+                        <li class="social"> <a href="https://twitter.com/pr4tik33"><img
+                                    src="{%static 'images/twitter.png' %}" alt="twitter"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h4>My Motivation to be a developer</h4>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum omnis unde consequuntur labore
+                        totam accusantium soluta rem sed quo obcaecati.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h4>What I know</h4>
+                    <hr>
+                    <p>Python,Django HTML/CSS, MongoDb, Mysql</p>
+                    <p>PS: Currently Learning Data Science stuff such as data manipulation, cleaning, visualization.</p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h4>No idea what to write </h4>
+                    <hr>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore minus illum asperiores sunt aut nihil.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, consequuntur.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h4>No idea what to write </h4>
+                    <hr>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore minus illum asperiores sunt aut nihil.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, consequuntur.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
